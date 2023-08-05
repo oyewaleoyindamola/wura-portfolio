@@ -19,7 +19,7 @@ const About = () => {
           About me
         </h1>
         <p className="text-justify leading-loose text-[#c4c4c4]">
-          Oyindamola is a Frontend Developer with an academic background in
+          I am a junior Frontend Developer with an academic background in
           History and International Studies. I have a solid interest in creating
           engaging and user-friendly web interfaces. My passion is to create
           solutions that meet market demands, grow businesses and improve

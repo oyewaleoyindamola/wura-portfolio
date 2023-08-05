@@ -7,6 +7,7 @@ import tailwind from "../images/tailwindcss.svg";
 import react from "../images/reactjs.svg";
 import antd from "../images/antd.svg";
 import nodejs from "../images/nodejs.svg";
+import mongodb from "../images/mongodb-icon.svg"
 // import redux from "../images/redux.svg";
 // import docker from "../images/docker.svg";
 // import typescript from "../images/typescript.svg";
@@ -27,6 +28,7 @@ const Stack = () => {
     // redux,
     antd,
     nodejs,
+    mongodb,
     // docker,
     // typescript,
   ];
