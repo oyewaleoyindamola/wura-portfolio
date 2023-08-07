@@ -35,14 +35,15 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_kbyhmdf",
-        "template_9pdyn1f",
-        {
-          from_name: form.name,
-          to_name: "Oyewale Oyindamola Wuraola",
-          from_email: form.email,
-          to_email: "oyewaleoyindamola@gmail.com",
-          message: form.message,
-        },
+        "template_2lm76hq",
+        // {
+        //   from_name: form.name,
+        //   to_name: "Oyewale Oyindamola Wuraola",
+        //   from_email: form.email,
+        //   to_email: "oyewaleoyindamola@gmail.com",
+        //   message: form.message,
+        // },
+        "#contactForm",
         "Dv-pnJilkRICn5r5U"
       )
       .then(
@@ -83,6 +84,7 @@ const Contact = () => {
           ref={formRef}
           onSubmit={sendMail}
           className="mt-12 flex flex-col gap-8"
+          id="contactForm"
         >
           <label className="flex flex-col 2xl:w-[30rem]">
             <span className="text-white font-medium mb-4">Your Name</span>
@@ -120,7 +122,8 @@ const Contact = () => {
 
           <button
             type="submit"
-            disabled
+            // disabled
+            // onClick={sendMail}
             className="bg-[#151030] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
           >
             {loading ? "Sending..." : "Send"}

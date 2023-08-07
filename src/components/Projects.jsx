@@ -5,8 +5,11 @@ import { styles } from "../utils/styles";
 import { motion } from "framer-motion";
 import Weather from "../images/weather.png";
 // import { BiCodeAlt } from "react-icons/bi";
-import RPS from "../images/rock-paper-scissors.png"
-import music from "../images/musicplayer.png"
+import RPS from "../images/rock-paper-scissors.png";
+import music from "../images/musicplayer.png";
+import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
+import { GoLink } from "react-icons/go";
 
 const Projects = () => {
   return (
@@ -20,7 +23,7 @@ const Projects = () => {
             My Projects
           </h2>
         </motion.div>
-        <div className=" m-10 flex gap-10">
+        <div className=" m-10 flex-col md:flex-row flex gap-10">
           <img src={Weather} alt="" className=" w-[40rem]" />
           <div>
             <h1 className=" text-6xl">Weather App</h1>
@@ -29,25 +32,43 @@ const Projects = () => {
               any city inputed. It provides easy access to informations like the
               humidity, description and temperature.
             </p>
+            <div className="flex gap-4">
+              <span className="flex gap-2 mt-4 border w-max p-3 rounded-2xl cursor-pointer">
+                <Link
+                  target="_blank"
+                  to={"https://oyewaleoyindamola.github.io/weatherApi/"}
+                >
+                  View Project
+                </Link>
+                <GoLink className="text-white text-2xl" />
+              </span>
+              <span className="flex gap-2 mt-4 border w-max p-3 rounded-2xl cursor-pointer">
+                <Link
+                  target="_blank"
+                  to={"https://github.com/oyewaleoyindamola/weatherApi"}
+                >
+                  View Code
+                </Link>
+                <FaGithub className="text-white text-2xl" />
+              </span>
+            </div>
           </div>
         </div>
         <div className=" m-10 flex gap-10">
-          <img src={RPS} alt="" className=" w-[40rem]" /> 
+          <img src={RPS} alt="" className=" w-[40rem]" />
           <div>
             <h1>Rock-Paper-Scissors</h1>
             <p className=" mt-5">
-              This the famous rock paper scissors game 
-              against computer
+              This the famous rock paper scissors game against computer
             </p>
           </div>
         </div>
         <div className=" m-10 flex gap-10">
-          <img src={music} alt="" className=" w-[40rem]" /> 
+          <img src={music} alt="" className=" w-[40rem]" />
           <div>
             <h1>Rock-Paper-Scissors</h1>
             <p className=" mt-5">
-              This the famous rock paper scissors game 
-              against computer
+              This the famous rock paper scissors game against computer
             </p>
           </div>
         </div>
