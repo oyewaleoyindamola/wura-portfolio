@@ -1,10 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { textVariant } from "../utils/motion";
 import { styles } from "../utils/styles";
 import { motion } from "framer-motion";
 import Weather from "../images/weather.png";
 // import { BiCodeAlt } from "react-icons/bi";
+import RPS from "../images/rock-paper-scissors.png"
+import music from "../images/musicplayer.png"
 
 const Projects = () => {
   return (
@@ -27,13 +29,26 @@ const Projects = () => {
               any city inputed. It provides easy access to informations like the
               humidity, description and temperature.
             </p>
-            <div>
-              {/* <Link to={""}>View Project</Link> */}
-              <button>
-                {" "}
-                {/* <Link to={""}>View Code</Link> */}
-              </button>
-            </div>
+          </div>
+        </div>
+        <div className=" m-10 flex gap-10">
+          <img src={RPS} alt="" className=" w-[40rem]" /> 
+          <div>
+            <h1>Rock-Paper-Scissors</h1>
+            <p className=" mt-5">
+              This the famous rock paper scissors game 
+              against computer
+            </p>
+          </div>
+        </div>
+        <div className=" m-10 flex gap-10">
+          <img src={music} alt="" className=" w-[40rem]" /> 
+          <div>
+            <h1>Rock-Paper-Scissors</h1>
+            <p className=" mt-5">
+              This the famous rock paper scissors game 
+              against computer
+            </p>
           </div>
         </div>
       </div>
