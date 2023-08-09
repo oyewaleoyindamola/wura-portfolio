@@ -5,6 +5,7 @@ import { styles } from "../utils/styles";
 import { motion } from "framer-motion";
 import Weather from "../images/weather.png";
 // import { BiCodeAlt } from "react-icons/bi";
+import calculator from "../images/Cal.png"
 import RPS from "../images/rock-paper-scissors.png";
 import music from "../images/musicplayer.png";
 import { Link } from "react-router-dom";
@@ -68,7 +69,23 @@ const Projects = () => {
           <div>
             <h1>Rock-Paper-Scissors</h1>
             <p className=" mt-5">
-              This the famous rock paper scissors game against computer
+             
+            </p>
+          </div>
+        </div>
+        <div className=" m-10 flex gap-10">
+          <img src={calculator} alt="" />
+          <div>
+            <h1> Calculator</h1>
+            <p className=" mt-5"> This is a simple calculator application that can perform basic arithmetic operations like addition, subtraction, multiplication, and division. </p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src={calculator} alt="" />
+            <h1>To-Do-App</h1>
+            <p className=" mt-5">
+            This is a basic to-do list application where users can add, edit, and delete tasks. 
             </p>
           </div>
         </div>
