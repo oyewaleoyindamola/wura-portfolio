@@ -43,50 +43,65 @@ const Projects = () => {
                 </Link>
                 <GoLink className="text-white text-2xl" />
               </span>
+            </div>
+          </div>
+        </div>
+        {/* <div className=" m-10 flex gap-10">
+          <img src={RPS} alt="" className=" w-[40rem]" />
+          <div>
+            <h1 className="text-6xl">Rock-Paper-Scissors</h1>
+            <p className=" mt-5">
+              This the famous rock paper scissors game against computer
+            </p>
+            <div className="flex gap-4">
               <span className="flex gap-2 mt-4 border w-max p-3 rounded-2xl cursor-pointer">
                 <Link
                   target="_blank"
-                  to={"https://github.com/oyewaleoyindamola/weatherApi"}
+                  to={"https://oyewaleoyindamola.github.io/weatherApi/"}
                 >
-                  View Code
+                  View Project
                 </Link>
-                <FaGithub className="text-white text-2xl" />
+                <GoLink className="text-white text-2xl" />
+              </span>
+            </div>
+          </div>
+        </div> */}
+        <div className=" m-10 flex gap-10">
+          <img src={music} alt="" className=" w-[39rem]" />
+          <div>
+            <h1 className="text-6xl">Music Player</h1>
+            <p className=" mt-5">
+             This is a basic music player It is a one page application that was created with HTML,CSS and JavaScripts. 
+            </p>
+            <div className="flex gap-4">
+              <span className="flex gap-2 mt-4 border w-max p-3 rounded-2xl cursor-pointer">
+                <Link
+                  target="_blank"
+                  to={"https://oyewaleoyindamola.github.io/savvy-music-player/"}
+                >
+                  View Project
+                </Link>
+                <GoLink className="text-white text-2xl" />
               </span>
             </div>
           </div>
         </div>
         <div className=" m-10 flex gap-10">
-          <img src={RPS} alt="" className=" w-[40rem]" />
+          <img src={calculator} alt=""  className=" w-[40rem]"  />
           <div>
-            <h1>Rock-Paper-Scissors</h1>
-            <p className=" mt-5">
-              This the famous rock paper scissors game against computer
-            </p>
-          </div>
-        </div>
-        <div className=" m-10 flex gap-10">
-          <img src={music} alt="" className=" w-[40rem]" />
-          <div>
-            <h1>Rock-Paper-Scissors</h1>
-            <p className=" mt-5">
-             
-            </p>
-          </div>
-        </div>
-        <div className=" m-10 flex gap-10">
-          <img src={calculator} alt="" />
-          <div>
-            <h1> Calculator</h1>
-            <p className=" mt-5"> This is a simple calculator application that can perform basic arithmetic operations like addition, subtraction, multiplication, and division. </p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src={calculator} alt="" />
-            <h1>To-Do-App</h1>
-            <p className=" mt-5">
-            This is a basic to-do list application where users can add, edit, and delete tasks. 
-            </p>
+            <h1 className="text-6xl"> Calculator</h1>
+            <p className=" mt-5"> This is a simple arithemetic calculator application that can perform basic arithmetic operations like addition, subtraction, multiplication, and division. </p>
+            <div className="flex gap-4">
+              <span className="flex gap-2 mt-4 border w-max p-3 rounded-2xl cursor-pointer">
+                <Link
+                  target="_blank"
+                  to={"https://oyewaleoyindamola.github.io/calll/"}
+                >
+                  View Project
+                </Link>
+                <GoLink className="text-white text-2xl" />
+              </span>
+            </div>
           </div>
         </div>
       </div>

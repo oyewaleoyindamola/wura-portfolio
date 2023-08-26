@@ -19,16 +19,10 @@ const About = () => {
           About me
         </h1>
         <p className="text-justify leading-loose text-[#c4c4c4]">
-          I am a junior Frontend Developer with an academic background in
-          History and International Studies. I have a solid interest in creating
-          engaging and user-friendly web interfaces. My passion is to create
-          solutions that meet market demands, grow businesses and improve
-          lifestyles for consumers. I specialize in the use of HTML, CSS,
-          JavaScript, and React to bring designs to life and create interactive
-          and responsive websites. I possess some practical knowledge of
-          Backend(Node.js) development and database(MongoDB) concepts with
-          interface designing and implementation. As an avid leaner, I willing
-          to learn more languages.
+         I am a junior backend developer with an academic background in History and International Studies. 
+         I transitioned into tech to understand the creation of website. I prefer the backend aspect of technology. 
+          I have interest in developing backend services that handles data transporting and designing well structured 
+          and efficient database. As an avid learner, I am willing to learn more languages.
         </p>
       </div>
       <div className="mt-10">
