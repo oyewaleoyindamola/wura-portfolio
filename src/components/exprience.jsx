@@ -1,6 +1,3 @@
-/* eslint-disable react/jsx-no-target-blank */
-// import chain from "../images/chain.svg";
-// import github from "../images/fill.svg";
 import {
   VerticalTimeline,
   VerticalTimelineElement,

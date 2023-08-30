@@ -1,4 +1,5 @@
 {
+  "$schema": "vscode://schemas/package.json",
   "name": "wura-portfolio",
   "version": "0.1.0",
   "private": true,

@@ -26,6 +26,7 @@ const About = () => {
         </p>
       </div>
       <div className="mt-10">
+        
         <h1 className="text-[#42446E] text-[2.5rem] font-bold mb-7 font-[poppins-extrabold]">
           Education
         </h1>
